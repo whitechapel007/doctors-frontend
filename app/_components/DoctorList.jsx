@@ -28,7 +28,7 @@ const DoctorList = () => {
                 <div>
                   {" "}
                   <h2 className="text-xs bg-black text-white p-1 rounded-full px-2 w-fit mt-1">
-                    {each.categories[0].Name}{" "}
+                    {each.categories?.[0]?.Name}{" "}
                   </h2>{" "}
                   <div className="space-y-1">
                     <p>{each.Name}</p>
